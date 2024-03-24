@@ -11,23 +11,30 @@
             color: #0000ff; /* Default text color */
             margin-bottom: 20px; /* Add margin at the bottom */
             padding-left: 20px; /* Add padding to the left */
+            font-family: Arial, sans-serif; /* Specify a fallback font family */
         }
         h1 {
             color: #0066cc; /* Text color for heading */
-            margin-bottom: 40px; /* Add margin at the bottom */
+            margin-bottom: 10px; /* Add margin at the bottom */
+            font-size: 24px; /* Set font size */
+            line-height: 1; /* Set line height */
         }
         p {
             background-color: #fff; /* Background color for paragraphs */
+            padding: 10px; /* Add padding */
         }
         span {
             color: #ff0000; /* Text color for the span element */
         }
         /* Styling for the link */
+        .links {
+            margin-top: 10px; /* Add margin at the top */
+        }
         a {
             color: #0066cc; /* Text color for links */
             text-decoration: none; /* Remove underline */
             font-weight: bold; /* Bold text */
-            margin-left: 10px; /* Add margin to the left */
+            margin-right: 10px; /* Add margin to the right */
         }
         /* Hover effect for the link */
         a:hover {
@@ -38,10 +45,12 @@
 <body>
     <div>
         <h1>DuGooCapital</h1>
-        
-        <a href="https://docs.google.com/spreadsheets/d/1tXhmLB7G6Jp6NVDR5mGJ8qXeTyDkh6AKBAFskez0V_4/edit?usp=sharing" target="_blank">check out my FY 2023-2024 PnL</a>
-        <a href="https://docs.google.com/spreadsheets/d/1tXhmLB7G6Jp6NVDR5mGJ8qXeTyDkh6AKBAFskez0V_4/edit?usp=sharing" target="_blank">check out my FY 2024-2025 PnL</a>
-
+        <div class="links">
+            <p>
+                <a href="https://docs.google.com/spreadsheets/d/1tXhmLB7G6Jp6NVDR5mGJ8qXeTyDkh6AKBAFskez0V_4/edit?usp=sharing" target="_blank">check out my FY 2023-2024 PnL</a>
+                <a href="https://docs.google.com/spreadsheets/d/1tXhmLB7G6Jp6NVDR5mGJ8qXeTyDkh6AKBAFskez0V_4/edit?usp=sharing" target="_blank">check out my FY 2024-2025 PnL</a>
+            </p>
+        </div>
     </div>
 </body>
 </html>
