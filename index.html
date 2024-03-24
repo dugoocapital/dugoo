@@ -16,28 +16,25 @@
         p {
             background-color: #fff; /* Background color for paragraphs */
         }
-        .link {
+        span {
+            color: #ff0000; /* Text color for the span element */
+        }
+        /* Styling for the link */
+        a {
             color: #0066cc; /* Text color for links */
             text-decoration: none; /* Remove underline */
             font-weight: bold; /* Bold text */
-            cursor: pointer; /* Change cursor to pointer to indicate clickability */
         }
         /* Hover effect for the link */
-        .link:hover {
+        a:hover {
             color: #004080; /* Text color when hovered */
         }
     </style>
 </head>
 <body>
     <h1>Welcome to DuGooCapital!</h1>
-    <p>Check out My <span class="link">2024-2025</span> PnL<br>
-    Check out My <span class="link">2023-2024</span> PnL<br>
+    <!-- "2024-2025" is not clickable -->
+    <p>Check out the <span>2024-2025</span> Trades.<br>
     URL: <a href="https://docs.google.com/spreadsheets/d/1tXhmLB7G6Jp6NVDR5mGJ8qXeTyDkh6AKBAFskez0V_4/edit?usp=sharing" target="_blank">https://docs.google.com/spreadsheets/d/1tXhmLB7G6Jp6NVDR5mGJ8qXeTyDkh6AKBAFskez0V_4/edit?usp=sharing</a></p>
-    <!-- New links -->
-    <p>Check out My <a href="https://example.com/2023-2024" target="_blank" class="link">2023-2024</a> PnL</p>
-    <p>Check out My <a href="https://example.com/2024-2025" target="_blank" class="link">2024-2025</a> PnL</p>
-    <script>
-        // No JavaScript function needed for the non-clickable spans
-    </script>
 </body>
 </html>
